@@ -7,7 +7,7 @@ dataset and the dataset consisted outlier in delivery charge.
 
 Here is the summary of this project result :
 
-### Dirty dataset summary and suggest improvement
+### Dirty dataset 
 Severals detection approachs for uncleaned data such as identifying unique in value, comparison of the correctness between dataset, solving linear equation with numpy
 packages, using pandas to identify error in data pattern between columns and using graphs (networkx packages) to calculate delivery distance. The following belows is all the errors found within the dataset:
 
