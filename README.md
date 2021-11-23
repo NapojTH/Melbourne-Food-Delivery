@@ -1,4 +1,4 @@
-# Melbourne-Food-Delivery project
+# Melbourne-Food-Delivery project (for more detail of procedure please look through the jupyter notebook file)
 
 ## Summary
 
@@ -21,7 +21,7 @@ packages, using pandas to identify error in data pattern between columns and usi
 
 All of the following errors are fixed with the data manipulation of pandas and netowrkx graph/node calculation between customer node and restaurant node to calculate shortest distance.
 
-#### improvement:
+#### Improvement:
 To improve the following task result, the comparison of multiple dataset must be performed (compare both the error-free column and error column with another dataset). Despite the fact some errors are identified, I did not find some errors which result in some errors in content. For example, we can compare the order_id, customer_lat, and customer_lon column between dirty and missing-value datset to detect some errors within the content.
 
 
@@ -34,7 +34,7 @@ These missing values is imputed or replaced by the following procedures:
 2. Restaurant rating: The NLTK sentimentanalyser was used for getting an average of compund polarity score and apply the rating calculation formula (10 * (avergae polarity score + 0.9623)/ 2)
 3. Delivery Charge: Dropping the missing value of the column and creating another dataframe. Then, fitting that dataframe without missing value to the linear regression model.Then, using that model to predict the value and impute the predicted value
 
-#### improvement 
+#### Improvement: 
 No need for improvement
 
 ### Outlier dataset
@@ -49,7 +49,7 @@ Here is the result:
 1. Box-plot on delivery charges r-square: 0.774
 2. Box-plot on the residual of delivery charge r-square: 0.958
 
-#### improvement 
+#### Improvement:
 I should include more outlier detection approach such as local outlier factor or other approachs on the dataset since the value for this task is multivariate.
 
 
