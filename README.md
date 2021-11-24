@@ -1,9 +1,11 @@
-# Melbourne-Food-Delivery project (for more detail of procedure please look through the jupyter notebook file)
-
+# Melbourne-Food-Delivery project (This project is a part of FIT5196 Data Wrangling unit)
 ## Summary
 
 This assignment consists of data cleansing and exploratory data analysis on the Melbourne food delivery datasets including dirty dataset, missing-value
 dataset and the dataset consisted outlier in delivery charge.
+
+(for more detail of procedure please look through the jupyter notebook file)
+
 
 Here is the summary of this project result :
 
